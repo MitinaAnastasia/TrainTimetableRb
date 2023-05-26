@@ -53,6 +53,7 @@ WebAPI-сервер, WPF-клиент
    TrainTimetable.WebApi (основное веб-апи)
  
    ## Скрин запуска
- ![скрин](https://github.com/SysuevaAnastasia/TrainTimetableRb/assets/101638603/cad6b90b-d1be-40a1-8f53-6d8f4f1078a0)
+ ![скрин](https://github.com/SysuevaAnastasia/TrainTimetableRb/assets/101638603/52884736-bb86-4684-bc8f-9d17f506ed30)
+
 
  
