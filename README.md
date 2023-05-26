@@ -39,11 +39,14 @@ WebAPI-сервер, WPF-клиент
    * Migration
    * Models (описание всех сущностей)
    * Context (описание dbContext)
+  
   TrainTimetable.Repository:
    * IRepository<T>
    * Repository<T>
+ 
    Бизнес-логика (TrainTimetable.Service):
    * Abstract (интерфейсы для всех сущностей)
    * Implementation (реализация)
+ 
    TrainTimetable.WebApi (основное веб-апи)
  
