@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  traintimetable.webapi:
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=development
+    depends_on:
+      - traintimetable_sqlserver
+
+  traintimetable_sqlserver:
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=PassORd123
+      - MSSQL_PID=Express
+    ports:
+      - "21433:1433"

@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  traintimetable.webapi:
+    image: ${DOCKER_REGISTRY-}traintimetablewebapi
+    build:
+      context: .
+      dockerfile: TrainTimetable.WebAPI/Dockerfile
+    depends_on:
+      - traintimetable_sqlserver
+
+  traintimetable_sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    env_file:
+        - bd.env
+
