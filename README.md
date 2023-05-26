@@ -1,6 +1,8 @@
 ## Требования к проекту
 
 Создать приложение «Расписание поездов»
+WebAPI-сервер, WPF-клиент
+
 * Данные о пользователе:
   * ID_пользователя  — ключ
   * Логин
@@ -29,3 +31,19 @@
    * Дата отправления поезда с какой-то станции
    * Название станции
    * Номер поезда, который совершает маршрут
+  
+Веб-приложение использует Swagger
+  ## Структура проекта
+  
+  TrainTimetable.Entities:
+   * Migration
+   * Models (описание всех сущностей)
+   * Context (описание dbContext)
+  TrainTimetable.Repository:
+   * IRepository<T>
+   * Repository<T>
+   Бизнес-логика (TrainTimetable.Service):
+   * Abstract (интерфейсы для всех сущностей)
+   * Implementation (реализация)
+   TrainTimetable.WebApi (основное веб-апи)
+ 
