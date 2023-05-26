@@ -22,6 +22,8 @@ WebAPI-сервер, WPF-клиент
   * Номер поезда
   * Место начала маршрута (откуда выезжает поезд)
   * Место завершения маршрута (куда приезжает поезд)
+
+Веб-приложение использует Swagger
   
   ## База данных
   ![бд](https://user-images.githubusercontent.com/101638603/198398047-73e4dec3-a458-4501-bd78-bec8e1921f7a.png)
@@ -32,7 +34,7 @@ WebAPI-сервер, WPF-клиент
    * Название станции
    * Номер поезда, который совершает маршрут
   
-Веб-приложение использует Swagger
+
   ## Структура проекта
   
   TrainTimetable.Entities:
@@ -49,4 +51,8 @@ WebAPI-сервер, WPF-клиент
    * Implementation (реализация)
  
    TrainTimetable.WebApi (основное веб-апи)
+ 
+   ## Скрин запуска
+ ![скрин](https://github.com/SysuevaAnastasia/TrainTimetableRb/assets/101638603/cad6b90b-d1be-40a1-8f53-6d8f4f1078a0)
+
  
